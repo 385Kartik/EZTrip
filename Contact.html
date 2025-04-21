@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="shortcut icon" type="x-icon" href="Assets/LOGO.png">
+
+    <link rel="stylesheet" href="Contact.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Light background color */
+            color: #333; /* Dark text for contrast */
+            margin: 0;
+            padding: 0;
+        }
+        .nav {
+            background-color: #007bff; /* Match your website theme */
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 800px;
+            height: 80vh;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1{
+            text-align: center;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px;
+            background-color: #007bff; /* Button color to match theme */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #0056b3; /* Darker button on hover */
+        }
+        .contact-info {
+            margin-top: 15%;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .space{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="empty">
+        <img height="50px" src="Assets/LOGO.png" alt="" class="logo"> <button class="EZ">EZ Trip</button>
+        <img class="home" height="35px" src="https://www.svgrepo.com/show/135822/home-icon-silhouette.svg" alt="Home">
+        <button onclick="window.location.href='EZTrip.html';"  class="home1">Home</button>
+        <!-- <span class="Searchbg"></span> -->
+        <textarea class="Search" name="Email" id="email" placeholder="Search Globally"></textarea>
+         <a class="Contact" href="Contact.html">Contact</a>
+        <button onclick="window.location.href='Signup.html';" class="Sign">Sign Up</button>
+        <button onclick="window.location.href='login.html';" class="Login">Login</button>
+        <div class="line1"></div>
+    </nav>
+
+
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        
+        <div class="contact-info">
+            <h2 class="space">Our Contact Information</h2>
+            <p class="space"><strong>Email:</strong> support@eztrip.com</p>
+            <p class="space"><strong>Phone:</strong> +1-234-567-890</p>
+            <p class="space"><strong>Address:</strong> 123 Travel Lane, Mumbai, India</p>
+        </div>
+    </div>
+
+</body>
+</html>

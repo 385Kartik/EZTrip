@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color: hsl(213, 73%, 93%);
+    --seccolor: rgb(105, 105, 255);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: var(--color);
+}
+.logo{
+    display: flex;
+    position: absolute;
+}
+.EZ{
+    /* margin-left: 30px; */
+    /* grid-column-end: 2; */
+    grid-column-start: 1;
+    font-family: Kanit system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:700;
+    margin-top: 15px;
+    margin-right: -20px;
+    border: none;
+    font-size:medium;
+}
+:hover.EZ{
+    cursor: pointer;
+}
+.empty {
+    height: 55px;
+    display: grid;
+    grid-template-columns: 10% 10% 55% 8.333% 8.333% 8.333%;
+    /* position: fixed; */
+    z-index: 1;
+    width: 100%;
+}
+/* .nav1{
+    height: 50px;
+    display: grid;
+    grid-template-columns: 10% 65% 8.333% 8.333% 8.333%;
+    width: 100%;
+    z-index: 0;
+    /* position: relative; */ 
+:hover.empty {
+    cursor: pointer;
+}
+
+.home {
+    margin-left: 7px;
+    margin-top: 7px;
+    display: flex;
+    position: relative;
+    grid-column-start: 2;
+}
+
+.home1 {
+    grid-column-start: 2;
+    /* margin-left: px; */
+    margin-top: -28px;
+    font-family: Kanit system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.Search {
+    border: 2px solid var(--seccolor);
+    border-radius: 15px;
+    grid-column-start: 3;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    padding: 6px 0 0 15px;
+    font-family: Kanit system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* text-decoration: none; */
+    display: flex;
+}
+
+:hover.Search {
+    background-color: #96d2ec;
+}
+
+.Contact {
+    grid-column-start: 4;
+    margin-left: 50px;
+    margin-top: -25px;
+    font-family: Kanit system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.Sign {
+    grid-column-start: 5;
+    margin-left: 50px;
+    margin-top: -25px;
+    margin-right: 5px;
+    padding: 4px 4px 4px 4px;
+    font-family: Kanit system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    color: var(--color);
+    background-color: rgb(57, 57, 190);
+    border: none;
+    border-radius: 5px;
+}
+
+:hover.Sign {
+    cursor: pointer;
+    background-color: #b0ddf0;
+    color: rgb(100, 100, 194);
+    border: 2px solid rgb(100, 100, 194);
+    box-sizing: border-box;
+    padding: 2px 2px 2px 2px;
+}
+
+.Login {
+    grid-column-start: 6;
+    margin-left: 40px;
+    margin-top: -25px;
+    margin-right: 10px;
+    font-family: Kanit system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    color: var(--color);
+    background-color: rgb(57, 57, 190);
+    border: none;
+    border-radius: 5px;
+}
+
+:hover.Login {
+    cursor: pointer;
+    background-color: #b0ddf0;
+    color: rgb(100, 100, 194);
+    border: 2px solid rgb(100, 100, 194);
+    box-sizing: border-box;
+    padding: 2px 2px 2px 2px;
+}
+
+/* .Searchbg{
+    border: 2px solid rgb(83, 83, 231);
+    border-radius: 15px;
+    grid-column-start: 2;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    background-color: #3b3b3b;
+} */
+.navi {
+    display: flex;
+    position: relative;
+}
+
+/* .bg {
+    background-image: url("BG\ IMG.jpg");
+    height: 50vh;
+    width: 100%;
+    /* position: relative; */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: max(25%, 100vw);
+    display: flex;
+    margin-top: 30px;
+} */
+
+.line {
+    height: 10px;
+    background-color: var(--seccolor);
+    border: 2px solid var(--color);
+    box-sizing: border-box;
+}
+.line1{
+    height: 6px;
+    background-color:  var(--seccolor);
+    /* border: 2px solid hsl(212, 100%, 78%); */
+    box-sizing: border-box;
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    margin-top: -5px;
+}
+
+.continents{
+    display: grid;
+    width: 100%;
+    /* margin-top: 75px; */
+    /* position: absolute; */
+    grid-template-columns: 14.28% 14.28% 14.28% 14.28% 14.28% 14.28% 14.28%;
+    grid-template-rows: 7vh 10vh;
+}
+
+.selectcontinent{
+    grid-column-start: 4;
+    grid-row-start: 1;
+    margin: auto;
+    font-family: Kanit system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-size: large;
+    text-decoration: wavy;
+    text-shadow: 3px 1px 5px #76d2ee;
+}
+
+:hover.selectcontinent{
+    scale: 1.1;
+}
+
+.africa{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    background-color: var(--seccolor);
+    font-family: Kanit system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    border: 2px solid rgb(100, 100, 194);
+    border-radius: 20px;
+    margin: 3px;
+}
+
+.asia{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.europe{
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.NA{
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+
+.SA{
+    grid-column-start: 5;
+    grid-row-start: 2;
+}
+
+.Aus{
+    grid-column-start: 6;
+    grid-row-start: 2;
+}
+
+.Antarctica{
+    grid-column-start: 7;
+    grid-row-start: 2;
+}
+
+.conti{
+    background-color: rgb(191, 191, 255);
+    font-family: Kanit system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    border: 2px solid rgb(100, 100, 194);
+    border-radius: 20px;
+    margin: 3px;
+}
+
+:hover.conti{
+    cursor: pointer;
+    background-color: var(--seccolor);
+}
+
+.countInAfrica{
+    display: grid;
+    display: grid;
+    width: 100%;
+    margin-top: 5px;
+    /* position: absolute; */
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 14vh 14vh 14vh;
+}
+
+.countriesInAfrica1{
+    background-color: rgb(191, 191, 255);
+    font-family: Kanit system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    border: 2px solid rgb(100, 100, 194);
+    border-radius: 20px;
+    margin: 3px;
+}
+
+:hover.countriesInAfrica1{
+    cursor: pointer;
+    background-color: var(--seccolor);
+}
+
+.Algeria{
+    background-image: url("Assets/AlgeriaFlag.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-shadow: 3px 1px 5px #000000;
+}
+
+:hover.Algeria{
+    scale: 1.1;
+    border: 2px solid rgb(21, 21, 105);
+    text-shadow: 3px 1px 5px #000000;
+}
+
+.Egypt{
+    background-image: url("Assets/EgyptFlag.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-shadow: 3px 1px 5px #000000;
+}
+
+:hover.Egypt{
+    scale: 1.1;
+    border: 2px solid rgb(21, 21, 105);
+    text-shadow: 3px 1px 5px #000000;
+}
+
+.Libya{
+    background-image: url("Assets/LibyaFlag.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-shadow: 3px 1px 5px #000000;
+    color: #76d2ee;
+}
+
+:hover.Libya{
+    scale: 1.1;
+    border: 2px solid rgb(21, 21, 105);
+    text-shadow: 3px 1px 5px #000000;
+}
+
+.Morocco{
+    background-image: url("Assets/MoroccoFlag.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-shadow: 3px 1px 5px #000000;
+    /* color: #76d2ee; */
+}
+
+:hover.Morocco{
+    scale: 1.1;
+    border: 2px solid rgb(21, 21, 105);
+    text-shadow: 3px 1px 5px #000000;
+}
+
+.Sudan{
+    background-image: url("Assets/SudanFlag.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-shadow: 3px 1px 5px #000000;
+    /* color: #76d2ee; */
+}
+
+:hover.Sudan{
+    scale: 1.1;
+    border: 2px solid rgb(21, 21, 105);
+    text-shadow: 3px 1px 5px #000000;
+}
+
+.Tunisia{
+    background-image: url("Assets/TunisiaFlag.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-shadow: 3px 1px 5px #000000;
+    /* color: #76d2ee; */
+}
+
+:hover.Tunisia{
+    scale: 1.1;
+    border: 2px solid rgb(21, 21, 105);
+    text-shadow: 3px 1px 5px #000000;
+}
+
+.WesternSahara{
+    background-image: url("Assets/WesternSaharaFlag.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-shadow: 3px 1px 5px #000000;
+}
+
+:hover.WesternSahara{
+    scale: 1.1;
+    border: 2px solid rgb(21, 21, 105);
+    text-shadow: 3px 1px 5px #000000;
+}
+
+.WesternSahara{
+    background-image: url("Assets/WesternSaharaFlag.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-shadow: 3px 1px 5px #000000;
+}
+
+:hover.WesternSahara{
+    scale: 1.1;
+    border: 2px solid rgb(21, 21, 105);
+    text-shadow: 3px 1px 5px #000000;
+}
+
+.Angola{
+    background-image: url("Assets/AngolaFlag.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-shadow: 3px 1px 5px #000000;
+    color: #76d2ee;
+}
+
+:hover.Angola{
+    scale: 1.1;
+    border: 2px solid rgb(21, 21, 105);
+    text-shadow: 3px 1px 5px #000000;
+}
+
+.Benin{
+    background-image: url("Assets/BeninFlag.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-shadow: 3px 1px 5px #000000;
+}
+
+:hover.Benin{
+    scale: 1.1;
+    border: 2px solid rgb(21, 21, 105);
+    text-shadow: 3px 1px 5px #000000;
+}
+
+.SouthAfrica{
+    background-image: url("Assets/SouthAfricaFlag.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-shadow: 3px 1px 5px #000000;
+}
+
+:hover.SouthAfrica{
+    scale: 1.1;
+    border: 2px solid rgb(21, 21, 105);
+    text-shadow: 3px 1px 5px #000000;
+}
+
+.Ethiopia{
+    background-image: url("data:image/png;base64,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");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-shadow: 3px 1px 5px #000000;
+}
+
+:hover.Ethiopia{
+    scale: 1.1;
+    border: 2px solid rgb(21, 21, 105);
+    text-shadow: 3px 1px 5px #000000;
+}
+
+.Kenya{
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARIAAAC4CAMAAAAYGZMtAAABR1BMVEUAAAAAZgC8AAD////ira3p6enSc3AAYADo8Oe3AADpxMO9AAAAAQPAAAC2AAAAaAAAAwD//f4AAAYfHR76//+kAATHAAAAWgCsqqvW1dby2tm+Agf+//zPd3jpuLbtwb7jp6aWAwW9HRauBAZcAgUmAQL58fHANDPPW1wNAgbdnJYAGgAAKwAASQAAQQAAJABpQgEPDg93dXaUkpO+vL3b2tujoKFNS0wxLzDLycoaFRdfXl48OzuEBwpyCQYhHyBoBglQAwlABgTLY1wvBgcZAwaJCAjbkYqBgIFwbW7Sn5nLFRdARkI7OjtYV1ipOjzISEm8VFZIPEP14d4sJS5/jIzTb2VHAAO7LigeAAE3AwavWFt0RUG1hYZYZGF4Ozm2wbNKUQRbUluUi5OANgOlHwK2sLYEEgCglqA/KDFDVgQAMwAAQgCwi1PCAAALAElEQVR4nO2c61vbOBaHHYvAKrJsJ00CiVNKCA2F3rkHhnsJbWfaZUqnUHZ2dzot093t/P+fV7JuBiflKU8jMbF+7YdEUfzovBwdHd3iOFZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWOvTUyFdvtG551/2md+t7tuMG6dbCdb+5eG2YN135iet9r9b5vu24QZoAS9f52jJY+d4tuTFaBODb/95P8wC8GEBjboZWAQC1b/zOLUIErA2kOTdB60XwrX6yTYnkB9Sem6Bl8DUmYbpoPf/VbwyBVqiB3xJja/EXFgfXIuPaiC3sOYD0zDyWWP0fBtwsoyoyG9M5m7e5mYbCnGqoQ4njdJiRxct/d28TV7dKlwpfsMrgmgneX0QL3MrlS+VbGEG8dbFsu80rv9bWPCPiPedCOPG8LewS4R0v2Xl4IBnyfqPsvJB9zVTdWNWZxDi8CnrQG0b9IAyVASIs7WLIkER4V/lJR9RcN9NSfapxQ4tiVai0FyHX3Sf/kYuiPcHklSByrZniX0qvhanPecGzyHX9/brv1/d94ijPOJLFXj1sSCWiSTz/C72DlosQbBd8v9CGxF1aB14cUPIZiSRU23zQKdI3nlMhwy8cBQUIC2AUQoQqIfWT9YwMN0wiA4vfdOPht86Q1Olr1KVItnmlVbNt1aVF4SUhG37hLGhQJA0wS4aeqDpDuw7zpQ3TbdWlFRFL7kaxkxwC5iXgMM7YomcOjyXPr3rS8OhFniGpYJdEVL9QZkjKBT/OTipOjKRjqNfkTajzejsPVjsvWYYG2wJJmxW4L5cWQG3u+bKRxjnAjDoboLbxI8tapxsNhqTRmGaMfvwpD17lr37KQGQKCXhdA3+nvYboCIhYAo7iAgR/BkvPTbXMGJL8m2M+s3FvgyJDUgS3eRGsv21f/YzByBgS8EuLI4HzQHrJlChrTRhrmCkkDTDpMvMjdwRIJCPkLdNkuVy86iGDkTEvaUxDzJFMAolkkiPBcLoBMoakPA95cEXwDpBI7kBeSLpT2VDTDCGhGQi33vWTSHyXcyLZipmmAWfEjN6J4aY3Ekrl3aSZpjmuCUG/idWbBJJJRcptVgy0jMgIEoS3TpB8A0eSSGR59WwXY9j7AQOVCSQIRgeeL2zHcAok8hLhPagVei3U7xGDlAkkEHfDUhdzh8DJVG2eI0EQb3rhDDbBxIiXRGeOc6LMHVVIRkUZjk4cZ87PChLc9BzHa8lAcQTE4gCf9tE6LS/eKTbQPCNeMkPNbUok02XhJeVpUQc3S6TOWUa8BEVzDjF3Bwl74bFAIifHCO/QRWkjAdYAEtyMl/PuSmvhpOg4Mi2JMF1/9UITPUc/Eoxm4p2aUkuaOyq8REZX148Pm3hnOOr5kEFKPxKI31MioaMS2EgsNEr7UbMUxuf5Iv2Djn4kqOJ5NHSGWwJJRFL6GMkdKJjgrTDuOE4FaU9gDcQSFko8Z68qStARKLhuQQ3BLt7lu+UGgol2JBDvcCSeChOwQJHUE9PgA36oYiYLSKp7HEnYEkXYnb3j+3dmXZ6qINfnTuK9RxmIJRE31nOaCXNPMT6VDiGOD9BqGRhx4kydaQurXoGgn1hBqXblbmRTe8/RjgQ1JZKdSPkF7THKZ9R5z7A7/B2HHR+JtdvXAfCMRLI1/EjwjjwEfdAvNYX4RCLRP+ToR6LOtnqJ6OFGEZRJGazelUhOMoDkTEZOtdjowpfFRmIpGqtT0nczgORAmluqyOWBKQCK5RGfR1gcKSSh9lFYO5Kqpy5UVLi56JRtKs3y5ViokHheBrzEkUi8ptgAPmRIpngdpHIXz3F1Dzn6kYQSSYkjYSvRRHU+E8aVBBI49EiQl/ASsStcZ0iOxSa5QhI62hdM9CNJdJzuJSR1Pg4nkYQZQKKul0gk8X4fKMrTJSjZcaKhR5IYX0tdccLkXrlI/oHRdMcpORkYcdTFLK/Ly5Bfp6ewjsUpnER4LYXV/s8ajPQjmVOdQk38T9tl0J6VdVoq3oQZ8JK7ygOaKkzA27dduc6IfIUkCwn9iZr2NWUpxDCRkqFEwDnJwOLATGKO08cDEJZEsrA4gLZUfPX71IHV9xJJBpaQkFpWDcXZAQQRmQT7SOTuYhWf1mn2f9SApL/jJDLTKs/MCIop6E65EhFSC439OtfgpD9VU6Fzj1uLIByhN0BHoFwckMvRc9qTVwNIMOsUJKLMyH2cabYnPM3fQtQUAefEHX4vgdUd4QFyn5zMcWIkU/LETUXW0Z68mjg50BTmyuQVthmStlpULPHtPv2hxAQSGP/IT0kda4X74hTSvjwMGy/Re86c/rMUJpBUT9jZES/Rb/gpJNlz8A6tE3r9d78GJxNn1brxDCaU5sK68JK6DCabcXwNu9lAglrhxbwUq0uxggDPXsKMnGh08ZlHO4WMrrPqdLRYH8DRAeHmnegfbwzdtIh/L8yTM5x7ZXEDtHxPlKFdWqWr/3SJIS+hvSLck2HiUF6KLR/KOjSYeK2sIEE0gQ274m6fn7x8Itfj6e6WifHG1OUT4gJhi81ekJu8ojQCWZKPfRJwxNaXZpm5ouTPec+kuRdvgIoqBNucnxkvoZcGHDIEf+UGKFErnDEx3hhCQuwtqYzjgpeovT18VnFNXO1znVEzSiyp9ro6TYs3/2GmaYauTnd+TYSJ5AX7xEmkf/7LTNvMICmu5Y8wXy+D7oj6sY4R3leQj07BxtLVTxqAzCBZXAG/8gv2CF28FMuCLoLuv2v5NSONM4KE2DrxyygSi9GH6rrjIY8lEf45vwqer5honREkL5aKa+VjNcdRSMQcB/nHYPGP4rqJn2IwgWSZ/P0n6DVpbj+ZCTcuzYTp6bUi8aWFKx/2/aUfSRG8Wc6/IlO8xilffUdqvUQsPU6XywBMLIK1PGjobqABL1laABsdiqbussQM1kV45atqUTwrBuBNu7Z69fO+t5y/adfbYu0n9uod8xL6owMMCetLCO6zz397ATZ+094+Z0y3vqyA1XH2Mse3947Ez1YesdAKc/zz+8t5/Q10cpo1tgaWHgTxyyD4UKVdB6Fj5iXH8cqAX/3APs8F47+Dj4+CsUBrC3UjCR4vgbUx+e4TwiRXI+NLjOSQ/gQuwp8kguBBp/h0rPeTBibNSILxVbDyJfFXP4+T2KhRcEnHieL8/jxRnfjUHw/0Ool2JOFy+fOFkkqVLqHNF6BfmMcQw2orl0AQPFoBb8aHueMEDxfAwsOkhcHYOSKDrjtPeo8LI4TOE5GDvvpcrH0eZiS5sJ0PLxoY5M6rENMJMCQ+gs9zlz7+8yPYeKiViUYkQS748h/we6obBJ+qJKCQyArd6qfcJSS5wMnnw1TpIKXXS7ZB5/7lMkLqCcYuxhDhJ0HK9mB8gw7EmhpIpRMJHYD/2yvJCP7nk66D/Q9Brw/vd8CtIfUSOgBPfEn7AXWUsXOMSWDtafjYG5ncaZFOJPdrxad9P3zypJ/VwYM/yECsz0/0IaED8Mc/+xhGfKeX+7CPctvF2mN9bqLRSz5PLH/+it1fGVUefey81ZevaUQy/mX9ugnG4wcaM1itI8514wH9or7psMZYkru+WYHOXE37esnNl0WSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWSkkWS0v8ByLi+Nm7zljkAAAAASUVORK5CYII=");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-shadow: 3px 1px 5px #000000; 
+    color: #76d2ee;
+}
+
+:hover.Kenya{
+    scale: 1.1;
+    border: 2px solid rgb(21, 21, 105);
+    text-shadow: 3px 1px 5px #000000;
+}
+
+.Mauritius{
+    background-image: url("Assets/MauritiusFlag.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-shadow: 3px 1px 5px #000000;
+}
+
+:hover.Mauritius{
+    scale: 1.1;
+    border: 2px solid rgb(21, 21, 105);
+    text-shadow: 3px 1px 5px #000000;
+}
+
+.Zimbabwe{
+    background-image: url("Assets/ZimbabweFlag.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-shadow: 3px 1px 5px #000000;
+    color: #76d2ee;
+}
+
+:hover.Zimbabwe{
+    scale: 1.1;
+    border: 2px solid rgb(21, 21, 105);
+    text-shadow: 3px 1px 5px #000000;
+}
+
+.Tanzania{
+    background-image: url("Assets/TanzaniaFlag.jpeg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-shadow: 3px 1px 5px #000000;
+    color: #76d2ee;
+}
+
+:hover.Tanzania{
+    scale: 1.1;
+    border: 2px solid rgb(21, 21, 105);
+    text-shadow: 3px 1px 5px #000000;
+}

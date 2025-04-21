@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color: hsl(213, 73%, 93%);
+    --seccolor: rgb(105, 105, 255);
+    --thirdcolor: rgb(165, 236, 253);
+    --forthcolor: rgb(152, 222, 255);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: var(--color);
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+}
+
+.EZ {
+    /* margin-left: 30px; */
+    /* grid-column-end: 2; */
+    grid-column-start: 1;
+    font-family: Kanit system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-right: -20px;
+    border: none;
+    font-size: medium;
+}
+
+:hover.EZ {
+    cursor: pointer;
+}
+
+.empty {
+    height: 55px;
+    display: grid;
+    grid-template-columns: 10% 10% 55% 8.333% 8.333% 8.333%;
+
+    /* position: fixed; */
+    z-index: 1;
+    width: 100%;
+}
+
+/* .nav1{
+    height: 50px;
+    display: grid;
+    grid-template-columns: 10% 65% 8.333% 8.333% 8.333%;
+    width: 100%;
+    z-index: 0;
+    /* position: relative; */
+:hover.empty {
+    cursor: pointer;
+}
+
+.home {
+    margin-left: 7px;
+    margin-top: 7px;
+    display: flex;
+    position: relative;
+    grid-column-start: 2;
+}
+
+.home1 {
+    grid-column-start: 2;
+    /* margin-left: px; */
+    margin-top: -28px;
+    font-family: Kanit system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.Search {
+    border: 2px solid var(--seccolor);
+    border-radius: 15px;
+    grid-column-start: 3;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    padding: 6px 0 0 15px;
+    font-family: Kanit system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* text-decoration: none; */
+    display: flex;
+}
+
+:hover.Search {
+    background-color: #96d2ec;
+}
+
+.Contact {
+    grid-column-start: 4;
+    margin-left: 50px;
+    margin-top: -25px;
+    font-family: Kanit system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.Sign {
+    grid-column-start: 5;
+    margin-left: 50px;
+    margin-top: -25px;
+    margin-right: 5px;
+    padding: 4px 4px 4px 4px;
+    font-family: Kanit system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    color: var(--color);
+    background-color: rgb(57, 57, 190);
+    border: none;
+    border-radius: 5px;
+}
+
+:hover.Sign {
+    cursor: pointer;
+    background-color: #b0ddf0;
+    color: rgb(100, 100, 194);
+    border: 2px solid rgb(100, 100, 194);
+    box-sizing: border-box;
+    padding: 2px 2px 2px 2px;
+}
+
+.Login {
+    grid-column-start: 6;
+    margin-left: 40px;
+    margin-top: -25px;
+    margin-right: 10px;
+    font-family: Kanit system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    color: var(--color);
+    background-color: rgb(57, 57, 190);
+    border: none;
+    border-radius: 5px;
+}
+
+:hover.Login {
+    cursor: pointer;
+    background-color: #b0ddf0;
+    color: rgb(100, 100, 194);
+    border: 2px solid rgb(100, 100, 194);
+    box-sizing: border-box;
+    padding: 2px 2px 2px 2px;
+}
+
+/* .Searchbg{
+    border: 2px solid rgb(83, 83, 231);
+    border-radius: 15px;
+    grid-column-start: 2;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    background-color: #3b3b3b;
+} */
+.navi {
+    display: flex;
+    position: relative;
+}
+
+/* .bg {
+    background-image: url("BG\ IMG.jpg");
+    height: 50vh;
+    width: 100%;
+    /* position: relative; */
+/* background-position: center;
+    background-repeat: no-repeat;
+    background-size: max(25%, 100vw);
+    display: flex;
+    margin-top: 30px;
+} */
+
+.line {
+    height: 10px;
+    background-color: var(--seccolor);
+    border: 2px solid var(--color);
+    box-sizing: border-box;
+}
+
+.line1 {
+    height: 6px;
+    background-color: var(--seccolor);
+    /* border: 2px solid hsl(212, 100%, 78%); */
+    box-sizing: border-box;
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    margin-top: -5px;
+}
+
+
+/* div {
+    height: 150px;
+    width: 80vw;
+    margin: auto;
+    border: 3px solid red;
+    border-radius: 20px;
+    background-color: black;
+    color: red;
+    font-family: Kanit system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+} */
+
+.cont {
+    display: flex;
+    border: 2px solid rgb(98, 154, 238);
+    height: 60px;
+    width: 30%;
+    margin: auto;
+    background-color: rgb(161, 221, 255);
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.cont1 {
+    text-align: center;
+    font-family: Kanit system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    text-shadow: 2px 2px 8px #000000;
+    background-color: rgb(161, 221, 255);
+
+}
+
+.mot {
+    height: 15vh;
+    border: 2px solid rgb(98, 154, 238);
+    /* margin-top: 10px; */
+    width: 60%;
+    /* margin: auto; */
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgb(165, 236, 253);
+    /* display: flex; */
+    /* top: 10px; */
+}
+
+.plane {
+    grid-column-start: 1;
+    margin: auto;
+    background-color: var(--thirdcolor);
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+
+.plane1 {
+    background-color: var(--thirdcolor);
+    text-decoration: none;
+    border: none;
+}
+
+:hover.plane {
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+
+.plane2 {
+    background-color: var(--thirdcolor);
+}
+
+.train {
+    grid-column-start: 2;
+    margin: auto;
+    background-color: var(--thirdcolor);
+}
+
+.train1 {
+    background-color: var(--thirdcolor);
+    text-decoration: none;
+    border: none;
+}
+
+:hover.train {
+    border-bottom: 2px solid black;
+    padding: 7px;
+}
+
+.train2 {
+    background-color: var(--thirdcolor);
+}
+
+.bus {
+    grid-column-start: 3;
+    margin: auto;
+    background-color: var(--thirdcolor);
+}
+
+.bus1 {
+    background-color: var(--thirdcolor);
+    text-decoration: none;
+    border: none;
+}
+
+:hover.bus1 {
+    border-bottom: 2px solid black;
+    /* padding-top: 5px; */
+}
+
+.bus2 {
+    background-color: var(--thirdcolor);
+}
+
+.cab {
+    grid-column-start: 4;
+    margin: auto;
+    background-color: var(--thirdcolor);
+}
+
+.cab1 {
+    background-color: var(--thirdcolor);
+    text-decoration: none;
+    border: none;
+}
+
+:hover.cab {
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+
+.cab2 {
+    background-color: var(--thirdcolor);
+}
+
+.mainbox {
+    border: 2px solid rgb(76, 141, 240);
+    height: 50vh;
+    width: 90vw;
+    margin-left: 5%;
+    margin-top: 10vh;
+    border-radius: 10px;
+    background-color: var(--forthcolor);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Something */
+
+.booking-container {
+    background-color: var(--forthcolor);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 100%;
+    margin: auto;
+    background-color: transparent;
+}
+
+.trip-type {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    /* margin: auto; */
+    background-color: transparent;
+}
+
+.trip-type label {
+    margin-right: 15px;
+    margin: auto;
+}
+
+.location-container {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-bottom: 20px;
+    /* width: 90vw; */
+    background-color: transparent;
+}
+
+.location {
+    width: 45%;
+    margin: auto;
+    background-color: transparent;
+}
+
+.location input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+
+}
+
+.swap-icon {
+    font-size: 24px;
+    background-color: transparent;
+
+}
+
+.details {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-bottom: 20px;
+    /* width: 90vw; */
+    background-color: transparent;
+
+}
+
+.details div {
+    width: 45%;
+    margin: auto;
+    background-color: transparent;
+
+}
+
+.details input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+
+}
+
+.fare-type {
+    margin-bottom: 20px;
+    background-color: transparent;
+
+}
+
+.fare-type button {
+    background-color: #00b300;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    /* background-color: transparent; */
+
+}
+
+.fare-options {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    background-color: transparent;
+
+}
+
+.fare-options label {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.fare-options input {
+    margin-right: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.trans {
+    background-color: transparent;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Kanit system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.border {
+    border: none;
+}
+
+.marg{
+    margin-left: 10vw;
+}
+
+.getTicket {
+    font-size: 15px;
+    font-weight: 600;
+    width: 15%;
+    border: none;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(165, 236, 253);
+    margin-top: 5%;
+    border: 2px solid rgb(76, 141, 240);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+:hover.getTicket {
+    cursor: pointer;
+    background-color: #96d2ec;
+}
+
+.tict {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.price-display {
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center the text */
+    font-style: 18px;
+}
+
+.ticket-display {
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items horizontally */
+    border: 1px solid #ccc; /* Light border around the ticket */
+    padding: 15px; /* Padding inside the ticket */
+    background-color: #f9f9f9; /* Light background color */
+    margin-top: 20px; /* Margin for separation */
+    width: 80%; /* Optional: Width for the ticket display */
+    max-width: 600px; /* Optional: Max width for the ticket display */
+    text-align: center; /* Center text within the ticket */
+}
+
+.price-display {
+    color: red; /* Set the color to red */
+    font-size: 0.9em; /* Set font size to be smaller */
+    margin-bottom: 10px; /* Margin for spacing */
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mode Of Transport</title>
+    <link rel="stylesheet" href="Cab.css">
+    <link rel="shortcut icon" type="x-icon" href="Assets/LOGO.png">
+
+</head>
+
+<body>
+    <script src="Cab.js"></script>
+
+    <nav class="empty">
+        <img height="50px" src="Assets/LOGO.png" alt="" class="logo">
+        <button class="EZ">EZ Trip</button>
+        <img class="home" height="35px" src="https://www.svgrepo.com/show/135822/home-icon-silhouette.svg" alt="Home">
+        <button onclick="window.location.href='EZTrip.html';" class="home1">Home</button>
+        <textarea class="Search" name="Email" id="email" placeholder="Search Globally"></textarea>
+        <a class="Contact" href="Contact.html">Contact</a>
+        <button onclick="window.location.href='Signup.html';" class="Sign">Sign Up</button>
+        <button onclick="window.location.href='login.html';" class="Login">Login</button>
+    </nav>
+
+    <div class="cont">
+        <p class="cont1">Select Mode Of Transport</p>
+    </div>
+    <div class="mot">
+        <div class="plane">
+            <a href="MOT.html" class="plane1"><img src="Assets/Airplane.svg" class="plane2" height="50px" alt=""></a>
+        </div>
+        <div class="train">
+            <a href="Train.html" class="train1"><img src="Assets/Train.svg" class="train2" height="55px" alt=""></a>
+        </div>
+        <div class="bus">
+            <a href="Bus.html" class="bus1"><img src="Assets/Bus.png" class="bus2" height="75px" alt=""></a>
+        </div>
+        <div class="cab">
+            <a href="Cab.html" class="cab1"><img src="Assets/Cab.svg" class="cab2" height="50px" alt=""></a>
+        </div>
+    </div>
+
+    <div class="mainbox">
+        <div class="cab-booking">
+            <div class="booking-options">
+                <label><input type="radio" name="option" value="Outstation One-Way"> Outstation One-Way</label>
+                <label><input type="radio" name="option" value="Outstation Round-Trip" checked> Outstation Round-Trip</label>
+                <label><input type="radio" name="option" value="Airport Transfers"> Airport Transfers</label>
+                <label><input type="radio" name="option" value="Hourly Rentals"> Hourly Rentals <span class="new-badge">Experimental</span></label>
+            </div>
+
+            <div class="booking-info">
+                <div class="section from">
+                    <h3>From</h3>
+                    <input class="from1" placeholder="From" value="Mumbai" type="text" id="from">
+                </div>
+
+                <div class="section to">
+                    <h3>To</h3>
+                    <input type="text" placeholder="To" class="To1" id="to">
+                </div>
+
+                <div class="section departure">
+                    <h3>Departure</h3>
+                    <input type="date" name="date" id="departureDate" class="date">
+                </div>
+
+                <div class="section return">
+                    <h3>Return</h3>
+                    <input type="date" name="date" id="returnDate" class="date">
+                </div>
+
+                <div class="section pickup-time">
+                    <h3>Pickup Time</h3>
+                    <input type="time" name="pickup-time" id="pickupTime" class="pickupTime" value="12:00">
+                </div>
+
+                <div class="section drop-time">
+                    <h3>Drop Time</h3>
+                    <input type="time" name="drop-time" id="dropTime" class="pickupTime" value="12:00">
+                </div>
+            </div>
+            <div class="tict">
+                <button class="getTicket" onclick="generateTicket()">Get Ticket</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

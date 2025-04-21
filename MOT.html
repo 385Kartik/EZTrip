@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mode Of Transport</title>
+    <link rel="stylesheet" href="MOT.css">
+    <link rel="shortcut icon" type="x-icon" href="Assets/LOGO.png">
+
+</head>
+
+<body>
+
+    <!-- <div>Agli baar kisi ko bhi invitation de toh yaad rakhna!</div> -->
+
+    <script src="MOT.js
+"></script>
+
+    <nav class="empty">
+        <img height="50px" src="Assets/LOGO.png" alt="" class="logo"> <button class="EZ">EZ Trip</button>
+        <img class="home" height="35px" src="https://www.svgrepo.com/show/135822/home-icon-silhouette.svg" alt="Home">
+        <button onclick="window.location.href='EZTrip.html';" class="home1">Home</button>
+        <!-- <span class="Searchbg"></span> -->
+        <textarea class="Search" name="Email" id="email" placeholder="Search Globally"></textarea>
+        <a class="Contact" href="Contact.html">Contact</a>
+        <button onclick="window.location.href='Signup.html';" class="Sign">Sign Up</button>
+        <button onclick="window.location.href='login.html';" class="Login">Login</button>
+        <div class="line1"></div>
+    </nav>
+
+    <div class="cont">
+        <p class="cont1">Select Mode Of Transport</p>
+    </div>
+    <div class="mot">
+        <div class="plane">
+            <a href="MOT.html" class="plane1"><img src="Assets/Airplane.svg" class="plane2" height="50px" alt=""></a>
+        </div>
+        <div class="train"> <a href="Train.html" class="train1"><img src="Assets/Train.svg" class="train2" height="55px"
+                    alt=""></a></div>
+        <div class="bus"><a href="Bus.html" class="bus1"><img src="Assets/Bus.png" class="bus2" height="75px"
+                    alt=""></a></div>
+        <div class="cab"> <a href="Cab.html" class="cab1"><img src="Assets/Cab.svg" class="cab2" height="50px"
+                    alt=""></a></div>
+    </div>
+    <div class="mainbox">
+
+        <div class="booking-container">
+            <div class="trip-type">
+                <input type="radio" id="oneway" name="trip-type" checked>
+                <label class="trans" for="oneway">One Way</label>
+                <input type="radio" id="roundtrip" name="trip-type">
+                <label class="trans" for="roundtrip">Round Trip</label>
+                <input type="radio" id="multicity" name="trip-type">
+                <label class="trans" for="multicity">Multi City</label>
+            </div>
+
+            <div class="location-container">
+                <div class="location">
+                    <label class="trans" for="from">From</label>
+                    <input class="border" type="text" id="from" value="Mumbai (MUM)">
+                </div>
+                <div class="swap-icon">⇄</div>
+                <div class="location">
+                    <label class="trans" for="to">To</label>
+                    <input class="border" type="text" id="to">
+                </div>
+            </div>
+
+            <div class="details">
+                <div class="date">
+                    <label class="trans" for="departure">Departure</label>
+                    <input class="border" type="date" id="departure" value="2024-09-20">
+                </div>
+                <div class="return hidden">
+                    <label for="return">Return</label>
+                    <input type="date" id="return">
+                </div>
+                <div class="travellers">
+                    <br>
+                    <label class="trans marg" for="travellers">Travellers</label>
+
+                    <select class="trans" name="adult" id="Adult">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="more">>9</option>
+                    </select>
+                </div>
+                <div>
+                    <br>
+                    <label class="class trans" for="trans">Class</label>
+                    <select class="trans"  name="class" id="Class">
+                        <option value="Economy">Economy</option>
+                        <option value="PremiumEconomy">Premium Economy</option>
+                        <option value="Business">Business</option>
+                        <option value="FirstClass">First Class</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="fare-type">
+                <label class="trans">Select a special fare</label>
+                <button class="extra-savings">EXTRA SAVINGS</button>
+                <div class="fare-options">
+                    <input type="radio" id="regular" name="fare" checked>
+                    <label class="trans" for="regular">Regular</label>
+
+                    <input type="radio" id="student" name="fare">
+                    <label class="trans" for="student">Student</label>
+
+                    <input type="radio" id="senior" name="fare">
+                    <label class="trans" for="senior">Senior Citizen</label>
+
+                    <input type="radio" id="armed-forces" name="fare">
+                    <label class="trans" for="armed-forces">Armed Forces</label>
+
+                    <input type="radio" id="doctor" name="fare">
+                    <label class="trans" for="doctor">Doctor and Nurses</label>
+                </div>
+            </div>
+            <div class="tict"><button class="getTicket">Get Ticket</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mode Of Transport</title>
+    <link rel="stylesheet" href="Bus.css">
+    <link rel="shortcut icon" type="x-icon" href="Assets/LOGO.png">
+
+</head>
+
+<body>
+    <script src="Bus.js"></script>
+
+    <nav class="empty">
+        <img height="50px" src="Assets/LOGO.png" alt="" class="logo"> <button class="EZ">EZ Trip</button>
+        <img class="home" height="35px" src="https://www.svgrepo.com/show/135822/home-icon-silhouette.svg" alt="Home">
+        <button onclick="window.location.href='EZTrip.html';" class="home1">Home</button>
+        <!-- <span class="Searchbg"></span> -->
+        <textarea class="Search" name="Email" id="email" placeholder="Search Globally"></textarea>
+        <a class="Contact" href="Contact.html">Contact</a>
+        <button onclick="window.location.href='Signup.html';" class="Sign">Sign Up</button>
+        <button onclick="window.location.href='login.html';" class="Login">Login</button>
+        <div class="line1"></div>
+    </nav>
+
+    <div class="cont">
+        <p class="cont1">Select Mode Of Transport</p>
+    </div>
+    <div class="mot">
+        <div class="plane">
+            <a href="MOT.html" class="plane1"><img src="Assets/Airplane.svg" class="plane2" height="50px" alt=""></a>
+        </div>
+        <div class="train"> <a href="Train.html" class="train1"><img src="Assets/Train.svg" class="train2" height="55px"
+                    alt=""></a></div>
+        <div class="bus"><a href="Bus.html" class="bus1"><img src="Assets/Bus.png" class="bus2" height="75px"
+                    alt=""></a></div>
+        <div class="cab"> <a href="Cab.html" class="cab1"><img src="Assets/Cab.svg" class="cab2" height="50px"
+                    alt=""></a></div>
+    </div>
+    <div class="mainbox">
+        <div class="ticket-info">
+            <div class="section from">
+                <h3>From</h3>
+                <select class="Mumbai" name="from" id="From">
+                    <option value="Kochi">Kochi (Ernakulam) Bus Station, Kerala</option>
+                    <option value="Bengaluru">Bengaluru (Majestic Bus Station), Karnataka</option>
+                    <option value="Mumbai">Mumbai (Dadar Bus Station), Maharashtra</option>
+                    <option value="Chennai">Chennai (Koyambedu Bus Terminus), Tamil Nadu</option>
+                    <option value="Delhi">Delhi (ISBT - Inter State Bus Terminus)</option>
+                    <option value="Hyderabad">Hyderabad (MGBS - Mahatma Gandhi Bus Station), Telangana</option>
+                    <option value="Pune">Pune (Shivaji Nagar Bus Stand), Maharashtra</option>
+                    <option value="Ahmedabad">Ahmedabad (S.T. Bus Station), Gujarat</option>
+                    <option value="Jaipur">Jaipur (Sindhi Camp Bus Stand), Rajasthan</option>
+                    <option value="Varanasi">Varanasi (Varanasi Bus Stand), Uttar Pradesh</option>
+                    <option value="Agra">Agra (Agra Bus Stand), Uttar Pradesh</option>
+                </select>
+            </div>
+
+            <div class="section">
+                <h3>To</h3>
+                <select class="To" name="to" id="To">
+                    <option value="Kochi">Kochi (Ernakulam) Bus Station, Kerala</option>
+                    <option value="Bengaluru">Bengaluru (Majestic Bus Station), Karnataka</option>
+                    <option value="Mumbai">Mumbai (Dadar Bus Station), Maharashtra</option>
+                    <option value="Chennai">Chennai (Koyambedu Bus Terminus), Tamil Nadu</option>
+                    <option value="Delhi">Delhi (ISBT - Inter State Bus Terminus)</option>
+                    <option value="Hyderabad">Hyderabad (MGBS - Mahatma Gandhi Bus Station), Telangana</option>
+                    <option value="Pune">Pune (Shivaji Nagar Bus Stand), Maharashtra</option>
+                    <option value="Ahmedabad">Ahmedabad (S.T. Bus Station), Gujarat</option>
+                    <option value="Jaipur">Jaipur (Sindhi Camp Bus Stand), Rajasthan</option>
+                    <option value="Varanasi">Varanasi (Varanasi Bus Stand), Uttar Pradesh</option>
+                    <option value="Agra">Agra (Agra Bus Stand), Uttar Pradesh</option>
+                </select>
+            </div>
+
+            <div class="section travel-date">
+                <h3>Travel Date</h3>
+                <input class="date" type="date" name="date" id="Date" value="2024-09-20">
+            </div>
+
+            
+        </div>
+        <div class="tict"><button class="getTicket">Get Ticket</button>
+        </div>
+</body>
+
+</html>

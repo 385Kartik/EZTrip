@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mode Of Transport</title>
+    <link rel="stylesheet" href="Train.css">
+    <link rel="shortcut icon" type="x-icon" href="Assets/LOGO.png">
+
+</head>
+
+<body>
+    <script src="Train.js"></script>
+
+    <nav class="empty">
+        <img height="50px" src="Assets/LOGO.png" alt="" class="logo"> <button class="EZ">EZ Trip</button>
+        <img class="home" height="35px" src="https://www.svgrepo.com/show/135822/home-icon-silhouette.svg" alt="Home">
+        <button onclick="window.location.href='EZTrip.html';" class="home1">Home</button>
+        <!-- <span class="Searchbg"></span> -->
+        <textarea class="Search" name="Email" id="email" placeholder="Search Globally"></textarea>
+        <a class="Contact" href="Contact.html">Contact</a>
+        <button onclick="window.location.href='Signup.html';" class="Sign">Sign Up</button>
+        <button onclick="window.location.href='login.html';" class="Login">Login</button>
+        <div class="line1"></div>
+    </nav>
+
+    <div class="cont">
+        <p class="cont1">Select Mode Of Transport</p>
+    </div>
+    <div class="mot">
+        <div class="plane">
+            <a href="MOT.html" class="plane1"><img src="Assets/Airplane.svg" class="plane2" height="50px" alt=""></a>
+        </div>
+        <div class="train"> <a href="Train.html" class="train1"><img src="Assets/Train.svg" class="train2" height="55px"
+                    alt=""></a></div>
+        <div class="bus"><a href="Bus.html" class="bus1"><img src="Assets/Bus.png" class="bus2" height="75px"
+                    alt=""></a></div>
+        <div class="cab"> <a href="Cab.html" class="cab1"><img src="Assets/Cab.svg" class="cab2" height="50px"
+                    alt=""></a></div>
+    </div>
+    <div class="mainbox">
+        <div class="ticket-booking">
+            <div class="booking-options">
+                <label class="trans"><input class="trans" type="radio" name="option" checked> Book Train Tickets</label>
+                <label class="trans"><input class="trans" type="radio" name="option"> Check PNR Status</label>
+                <label class="trans"><input class="trans" type="radio" name="option"> Live Train Status</label>
+            </div>
+            
+            <div class="ticket-info">
+                <div class="section from">
+                    <h3>From</h3>
+                    <input class="Mumbai" type="text" value="Mumbai" placeholder="From">
+                </div>
+                
+                <div class="section to">
+                    <h3>To</h3>
+                <select type="text" class="To" placeholder="To">
+                    <option value="Mumbai">Chhatrapati Shivaji Maharaj Terminus (CSMT) - Mumbai, Maharashtra</option>
+                    <option value="Delhi">New Delhi Railway Station (NDLS) - New Delhi
+                    </option>
+                    <option value="WestBengal">Howrah Junction (HWH) - Kolkata, West Bengal</option>
+                    <option value="Chennai">Chennai Central (MAS) - Chennai, Tamil Nadu
+                    </option>
+                    <option value="KoSealdahlkata">Sealdah Railway Station (SDAH) - Kolkata, West Bengal
+                    </option>
+                    <option value="Kolkata">Kolkata Railway Station (KOAA) - Kolkata, West Bengal
+                    </option>
+                    <option value="Bangalore">Bangalore City Railway Station (SBC) - Bengaluru, Karnataka
+                    </option>
+                    <option value="Kanpur">Kanpur Central (CNB) - Kanpur, Uttar Pradesh
+                    </option>
+                    <option value="Secunderabad">Secunderabad Junction (SC) - Hyderabad, Telangana
+                    </option>
+                    <option value="Patna">Patna Junction (PNBE) - Patna, Bihar
+                    </option>
+                    <option value="Ahmedabad">Ahmedabad Junction (ADI) - Ahmedabad, Gujarat
+                    </option>
+                    <option value="Lucknow">Lucknow Charbagh (LKO) - Lucknow, Uttar Pradesh
+                    </option>
+                    <option value="Bhopal">Bhopal Junction (BPL) - Bhopal, Madhya Pradesh
+                    </option>
+                    <option value="Jaipur">Jaipur Junction (JP) - Jaipur, Rajasthan
+                    </option>
+                    <option value="Thiruvananthapuram">Thiruvananthapuram Central (TVC) - Thiruvananthapuram, Kerala
+                    </option>
+                    <option value="Pune">Pune Junction (PUNE) - Pune, Maharashtra
+                    </option>
+                    <option value="Madurai">Madurai Junction (MDU) - Madurai, Tamil Nadu
+                    </option>
+                    <option value="Guwahati">Guwahati Railway Station (GHY) - Guwahati, Assam
+                    </option>
+                    <option value="Varanasi">Varanasi Junction (BSB) - Varanasi, Uttar Pradesh
+                    </option>
+                    <option value="Visakhapatnam">Visakhapatnam Junction (VSKP) - Visakhapatnam, Andhra Pradesh</option>
+                </select>
+                </div>
+                
+                <div class="section travel-date">
+                    <h3>Travel Date</h3>
+                    <input class="date" type="date" name="date" id="Date" value="2024-09-20">
+                </div>
+                
+                <div class="section class">
+                    <h3>Class</h3>
+                    <select class="classtrain" name="Class" id="class">
+                        <option value="AllClass">All Class</option>
+                        <option value="Sleeper">Sleeper Class</option>
+                        <option value="ThirdAC">Third AC</option>
+                        <option value="SecondAC">Second AC</option>
+                        <option value="FirstAC">Frist AC</option>
+                        <option value="SecondSeating">Second Seating</option>
+                    </select>
+                </div>
+                <div class="travellers">
+                    <select class="travellers1" name="travel" id="Travel">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+            </div>
+            <div class="tict"><button class="getTicket">Get Ticket</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
